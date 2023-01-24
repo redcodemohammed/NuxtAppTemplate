@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@heroicons/vue': ^2.0.13
+  '@iconify/vue': ^4.0.2
   '@nuxtjs/i18n': 8.0.0-beta.8
   '@nuxtjs/robots': ^3.0.0
   '@nuxtjs/tailwindcss': ^6.2.0
@@ -16,6 +17,7 @@ specifiers:
 
 dependencies:
   '@heroicons/vue': 2.0.13
+  '@iconify/vue': 4.0.2
   '@nuxtjs/robots': 3.0.0
   '@pinia/nuxt': 0.4.6
   '@tailwindcss/forms': 0.5.3
@@ -362,6 +364,18 @@ packages:
     resolution: {integrity: sha512-vVCVF02+rNKXEmanVNnmktJlxCbOn0qVFP1gfZPn4bcBIwPX3h9AVHGCkwly+IWDEME8w5oooG0KRd2hhSe/HQ==}
     peerDependencies:
       vue: '>= 3'
+    dev: false
+
+  /@iconify/types/2.0.0:
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
+    dev: false
+
+  /@iconify/vue/4.0.2:
+    resolution: {integrity: sha512-LRp+mYh8N0bcX4lustHtI5o1aEoio9HN3/19uIzVOvI78qopKBjzsDK5hkEZYDSc6+LKG8hfLxTxpW8CejXGZg==}
+    peerDependencies:
+      vue: '>=3'
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: false
 
   /@intlify/bundle-utils/3.4.0_vue-i18n@9.3.0-beta.16:
